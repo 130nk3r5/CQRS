@@ -1,0 +1,1 @@
+﻿dotnet ef migrations add InitialCreate -c TestDbContext -o Migrations/TestDb -s ../Web

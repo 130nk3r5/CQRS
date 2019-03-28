@@ -1,0 +1,20 @@
+﻿@page
+@model TestEntitiesModel
+
+<h1>Test Entites of type 1</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var entity in Model.Entities)
+        {
+            <tr>
+                <td>@entity.Name</td>
+            </tr>
+        }
+    </tbody>
+</table>
